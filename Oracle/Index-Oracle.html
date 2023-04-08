@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>MAGIC 8 BALL</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Style-Oracle.css" />
+  </head>
+
+  <body>
+    <div class="video wrapper">
+      <video id="myVideo">
+        <source
+          src="C:\Users\Lorin Newham\New folder\All Folders\Magic 8 Ball Project\Binary Background.mp4"
+          type="video/webm"
+        />
+      </video>
+    </div>
+
+    <header>
+      <div class="navbar">
+        <h1>THE ORACLE</h1>
+      </div>
+    </header>
+
+    <p id="answer" class="answer"></p>
+
+    <div class="button" style="position: relative; width: 80%">
+      <button id="questionButton" onclick="playVid()" type="button">
+        COME FORTH WITH YOUR QUESTION
+      </button>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; Lorin Newham 2022</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="Script-Oracle.js"></script>
+  </body>
+</html>
